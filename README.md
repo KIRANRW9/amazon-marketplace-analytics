@@ -33,6 +33,23 @@ This project demonstrates professional-grade data analytics skills through a com
 | **SciPy** | Statistical analysis | 1.7.0+ |
 | **Google Colab** | Cloud-based development environment | - |
 
+## 📊 Dashboard Visualizations
+
+### Business Intelligence Overview
+![Amazon Business Intelligence Dashboard](https://github.com/KIRANRW9/amazon-marketplace-analytics/blob/repo-exercise/Amazon%20Business%20Intelligence%20Dashboard.png)
+
+*Executive KPI dashboard showing revenue by fulfillment method and quarterly growth trends with +77,091.2% overall growth*
+
+### Geographic Performance Analysis
+![Amazon India Geographic Performance](https://github.com/KIRANRW9/amazon-marketplace-analytics/blob/repo-exercise/Amazon%20India%20-%20Geographic%20performance.png)
+
+*Comprehensive state-wise revenue analysis and order volume distribution across Indian markets*
+
+### Sales Performance Dashboard
+![Amazon Sales Performance Dashboard](https://github.com/KIRANRW9/amazon-marketplace-analytics/blob/repo-exercise/Amazon%20sales%20performance%20Dashboard.png)
+
+*Multi-dimensional performance analytics including monthly trends, category analysis, order value distribution, and weekly patterns*
+
 ## 📈 Key Features & Analytics
 
 ### 🔍 Data Processing Capabilities
@@ -58,27 +75,18 @@ This project demonstrates professional-grade data analytics skills through a com
 ## 📁 Project Structure
 
 ```
-Amazon-Sales-Analytics/
+amazon-marketplace-analytics/
 │
-├── data/
-│   └── Amazon Sale Report.csv          # Raw sales data
-│
-├── notebooks/
-│   └── Amazon_Sales_Analytics.ipynb    # Main analysis notebook
-│
-├── src/
-│   ├── data_preprocessing.py           # Data cleaning utilities
-│   ├── visualization.py               # Custom plotting functions
-│   └── business_metrics.py            # KPI calculation functions
-│
-├── outputs/
-│   ├── dashboards/                     # Generated visualizations
-│   ├── reports/                        # Business intelligence reports
-│   └── insights/                       # Strategic recommendations
-│
-├── requirements.txt                    # Package dependencies
-├── README.md                          # Project documentation
-└── LICENSE                           # MIT License
+├── marketplace_analytics_amazon_india.ipynb    # Main analysis notebook
+├── Amazon Business Intelligence Dashboard.png  # Business KPI dashboard
+├── Amazon India - Geographic performance.png   # State-wise performance analysis
+├── Amazon sales performance Dashboard.png      # Comprehensive sales dashboard
+├── Quarterly Revenue Trend.png                 # Growth trend visualization
+├── AMAZON_SALES_INSIGHTS.md                   # Detailed insights documentation
+├── PROJECT_SUMMARY.md                         # Executive project summary
+├── CONTRIBUTING.md                            # Contribution guidelines
+├── README.md                                  # Project documentation
+└── LICENSE                                    # MIT License
 ```
 
 ## 🚀 Quick Start
@@ -95,8 +103,8 @@ pip install -r requirements.txt
 ### Installation & Setup
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/amazon-sales-analytics.git
-cd amazon-sales-analytics
+git clone https://github.com/KIRANRW9/amazon-marketplace-analytics.git
+cd amazon-marketplace-analytics
 
 # 2. Install dependencies
 pip install pandas numpy matplotlib seaborn scipy
@@ -125,23 +133,23 @@ jupyter notebook Amazon_Sales_Analytics.ipynb
 
 ### Key Business Insights
 - **Geographic Concentration**: Top 3 states contribute 67% of revenue
-- **Category Performance**: Electronics leads with 34% market share  
-- **Seasonal Trends**: 40% higher revenue during festival seasons
-- **Operational Efficiency**: 94.2% successful order fulfillment rate
+- **Category Performance**: "Set" category leads with 49.9% market share  
+- **Seasonal Trends**: Significant growth trajectory with 77,091.2% overall growth
+- **Operational Efficiency**: Amazon fulfillment dominates with 69.1% vs Merchant 30.9%
 
 ## 💡 Business Value Delivered
 
 ### Strategic Insights Generated
 1. **Revenue Optimization**: Identified ₹2.1Cr additional revenue potential
-2. **Market Expansion**: Recommended tier-2 city penetration strategy
-3. **Inventory Management**: Optimized stock levels reducing holding costs by 15%
-4. **Platform Diversification**: Analyzed multi-platform expansion opportunities
+2. **Market Expansion**: Maharashtra leads revenue (₹133.4L), Karnataka follows (₹104.8L)
+3. **Category Focus**: "Set" category drives maximum revenue (₹392.0L)
+4. **Fulfillment Strategy**: Amazon fulfillment preferred for operational efficiency
 
 ### Operational Improvements
-- **Cancellation Analysis**: Identified patterns causing 15.8% cancellation rate with reduction roadmap
-- **Fulfillment Strategy**: 2-method fulfillment analysis with Amazon as primary channel
-- **Category Focus**: "Set" category optimization strategy for 49.9% revenue contribution
-- **Data Quality Excellence**: Achieved 95.1% data quality score with professional cleaning pipeline
+- **Geographic Strategy**: Focus on top-performing states (Maharashtra, Karnataka, Telangana)
+- **Category Optimization**: Leverage high-performing categories (Set, Kurta, Western Dress)
+- **Seasonal Planning**: Capitalize on monthly revenue patterns and weekly trends
+- **Order Value Analysis**: Average order value insights for pricing optimization
 
 ## 🔍 Advanced Analytics Features
 
