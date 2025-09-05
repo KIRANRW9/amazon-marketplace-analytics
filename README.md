@@ -78,6 +78,7 @@ This project demonstrates professional-grade data analytics skills through a com
 amazon-marketplace-analytics/
 │
 ├── marketplace_analytics_amazon_india.ipynb    # Main analysis notebook
+├── Amazon Sale Report.csv                      # Dataset (download from Kaggle)
 ├── Amazon Business Intelligence Dashboard.png  # Business KPI dashboard
 ├── Amazon India - Geographic performance.png   # State-wise performance analysis
 ├── Amazon sales performance Dashboard.png      # Comprehensive sales dashboard
